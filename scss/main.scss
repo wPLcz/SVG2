@@ -1,0 +1,32 @@
+$main_background: #333333;
+$second_background: #261132;
+$second_colour: #B0423B;
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background: #4d4d4d;
+}
+
+.container {
+margin:25vh 0;
+  display:flex;
+  justify-content: center;
+  svg{
+    height:50%;
+    width:50%;
+    color:#1071F6;
+    g{
+
+      polygon{
+        fill:#1071F6;
+      }
+    }
+  }
+}
